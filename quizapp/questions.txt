@@ -1,0 +1,30 @@
+This design pattern defined a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
+This design pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. It allows the algorithm to vary independently from clients that use it.
+The general idea of this design pattern is to build an abstract base class with a skeletal method. This skeletal method drives the bit of the processing that needs to vary, but it does so by making calls to abstract methods, which are then supplied by the  concrete subclasses.
+In this design pattern, new instances are created by cloning an existing object.
+This design pattern encapsulates a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations
+This design pattern composes objects into tree structures to represent part-whole hierarchies.  It lets clients treat individual objects and compositions of objects uniformly.
+This design pattern provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+This design pattern converts the interface of a class into another interface clients expect. It lets classes work together that couldn’t otherwise because of incompatible interfaces.
+Define an interface for creating an object, but let subclasses decide which class to instantiate.
+Attach additional responsibilities to an object dynamically, thus providing a flexible alternative to subclassing for extending functionality.
+This design pattern provides a surrogate or placeholder for another object to control access to it.
+This pattern ensures a class only has one instance, and provides a global point of access to it.
+This design pattern separates the construction of a complex object from its representation so that the same construction process can create different representations.
+This pattern defines a higher-level interface that makes the subsystem easier to use. Provide a unified interface to a set of interfaces in a subsystem.
+The intent of this pattern is to decouple an abstraction from its implementation so that the two can vary independently.
+Pattern that defines an object that encapsulates a set of objects and controls how they interact.
+This pattern use sharing to support large numbers of fine-grained objects efficiently.
+This pattern is not from the GoF and suggests that you should focus on the language itself, not on the interpreter.
+The idea of this pattern is that sometimes the easiest way to get to the code that you need is not to write it at your keyboard but rather to conjure it up programmatically, at runtime.
+Given a language, this design pattern defines a representation for its grammar along with an evaluator that uses the representation to interpret sentences in the language.
+This antipattern is characterized by a class diagram composed of a single complex controller class surrounded by simple data classes.
+This antipattern is characterized by useless mass of code that no one can remember much, if anything, about.
+This antipattern is caused by classes with limited responsibilities and roles to play in the system.
+This antiPattern results in the misapplication of a favored tool or concept. 
+This antipattern is reached by modifying a reusable component, if the modified component is no longer maintained and supported by the supplier.
+This antipattern appears as a program or system that contains very little software structure.
+Software that fails straightforward behavioral tests may be an example of..
+This antipattern comes from the notion that it’s easier to modify existing software than program from scratch.
+This antipattern presents when a piece of software or hardware serves no useful purpose on the current project.
+This AntiPattern is the result of experienced, nonobject-oriented developers who design and implement an application in an object-oriented language. 

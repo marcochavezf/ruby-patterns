@@ -1,0 +1,12 @@
+
+
+<form method="get" action="/restart_quiz">
+    <p>
+        <h1> Final Score: </h1>
+        <p> You had <%= session[:no_right_answers] %> right answers of <%= session[:no_questions] %> questions.</p>
+        <p>
+            <input type="submit" value="Try Again!"/>
+        </p> 
+    </p>
+    
+</form>

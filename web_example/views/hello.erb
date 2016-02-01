@@ -1,0 +1,11 @@
+
+<h1> Hello <%= @name %> </h1>
+<%= Time.now %>
+    <p>
+    <ul>
+        <% @friends.each do |f| %>
+            <li><%= f %></li>
+        <% end %>
+    </ul>
+</p>
+

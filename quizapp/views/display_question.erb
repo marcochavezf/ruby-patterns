@@ -1,0 +1,14 @@
+
+
+<form method="post" action="/display_feedback">
+    <p>
+        <h1> Question No.  <%=  session[:id_questions_asked].length %> </h1>
+        <p> <%= @question %> </p>
+        <p>
+          <% @multiple_answers.each do |answer| %>
+            <input type="submit" name="answer_selected" value="<%= answer %>"/>
+          <% end %>
+        </p> 
+    </p>
+    
+</form>

@@ -1,0 +1,30 @@
+Observer
+Strategy
+Template Method
+Prototype
+Command
+Composite
+Iterator
+Adapter
+Factory method
+Decorator
+Proxy
+Singleton
+Builder
+Façade
+Bridge
+Mediator
+Flyweight
+DSL
+Meta Programming
+Interpreter
+The Blob
+Lava Flow
+Poltergeist
+Golden Hammer
+Dead End
+Spaghetti Code
+Input Kludge
+Cut and Paste
+Boat Anchor
+Functional Decomposition
